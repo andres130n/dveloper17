@@ -1,18 +1,27 @@
-#-*- coding:utf-8 -*-
+# -*- coding:utf-8 -*-
 
 {
-    'name': 'Modulo de peliculas', 
-    'version': '1.0', 
+    'name': 'Modulo de peliculas',
+    'version': '1.0',
     'depends': [
         'contacts',
-        ],
-    'author': 'Andres Leon P',
-    'category': 'Peliculas',  
-    'website': 'https://www.google.com',
-    'summary': 'En mi primera chamba jejej',
-    'description': 'Modulo para data', 
+        'mail',
+    ],
+    'author': 'Eduardo Velaochaga',
+    'category': 'Peliculas',
+    'website': 'http://www.google.com',
+    'summary': 'Modulo de presupuestos para peliculas',
+    'description': '''
+    Modulo para hacer presupuestos de peliculas
+    ''',
     'data': [
-        'views/menu.xml',
+        'security/security.xml',
+        'security/ir.model.access.csv',
+        'data/categoria.xml',
+        'data/secuencia.xml',
+        'wizard/update_wizard_views.xml',
+        'report/reporte_pelicula.xml',
         'views/presupuesto_views.xml',
-    ], 
+        'views/menu.xml',
+    ],
 }
