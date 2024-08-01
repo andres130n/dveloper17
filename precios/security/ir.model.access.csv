@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+acceso_medico_usuario,acceso medico usuario,model_medico,group_medico_usuario,1,1,1,1
+acceso_medico_detalle_usuario,acceso medico detalle usuario,model_medico_detalle,group_medico_usuario,1,1,1,1

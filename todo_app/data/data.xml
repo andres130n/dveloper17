@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id ="todo_app" model="todo_app">
+        <field name="name">Tarea #1:Barrer</field>
+        <field name="state">Barrador</field>
+    </record>
+
+    <record id ="todo_app" model="todo_app">
+        <field name="name">Tarea #2:Diseño CSS</field>
+        <field name="state">Cancelada</field>
+    </record>
+</odoo>

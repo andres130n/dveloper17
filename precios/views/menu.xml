@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <record id="action_open_medico" model="ir.actions.act_window">
+        <field name="name">Medicos</field>
+        <field name="res_model">medico</field>
+        <field name="view_mode">tree,form,kanban</field>
+    </record>
+
+    <menuitem id="menu_principal" name="Medicio"/>
+    <menuitem id="menu_secundario" name="Lista Medico" parent="menu_principal"/>
+     <menuitem id="menu_vertical_medico" name="Lista Medicos s" parent="menu_secundario" action="action_open_medico"/>
+</odoo>
